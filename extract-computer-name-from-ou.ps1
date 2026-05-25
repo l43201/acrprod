@@ -1,5 +1,5 @@
 ﻿# 🔧 Set your target OU DN
-$targetOU = "OU=Vaše OU
+$targetOU = "OU=Vaše OU"
 
 # Export computer names to CSV
 Get-ADComputer -SearchBase $targetOU -Filter * -Properties Name |
